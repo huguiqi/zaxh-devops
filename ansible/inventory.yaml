@@ -1,0 +1,13 @@
+zaxh:
+  hosts:
+    local:
+      ansible_host: 127.0.0.1
+    test1:
+      ansible_host: test-zaxh-001
+    test3:
+      ansible_host: test-zaxh-003
+    test4:
+      ansible_host: test-zaxh-004      
+  vars:
+    ansible_user: root
+
